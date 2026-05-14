@@ -27,10 +27,9 @@ nav:
   - Vision: index.md
   - Roadmap:
     - "Epoch I: Foundation": epochs/epoch-1.md
-    - "Epoch II: Logic (Rust)": epochs/epoch-2.md
+    - "Epoch II: Logic": epochs/epoch-2.md
     - "Epoch III: Scale": epochs/epoch-3.md
   - The Brain Shed (Journal):
       - Recent Thoughts: brain-shed/current.md
       - Archive: brain-shed/archive.md
-  - Architecture (ADRs):
-    - "ADR 001: Language Choice": adr/001-rust.md
+  - Architecture (ADRs): []
