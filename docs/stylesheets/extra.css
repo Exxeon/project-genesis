@@ -1,0 +1,29 @@
+/* Deep Black Backgrounds */
+[data-md-color-scheme="genesis-dark"] {
+  --md-default-bg-color: #000000;
+  --md-default-bg-color--light: #0a0a0a;
+  --md-code-bg-color: #0d0d0d;
+  
+  /* Purple Accents */
+  --md-primary-fg-color: #9c27b0;
+  --md-primary-fg-color--light: #ba68c8;
+  --md-primary-fg-color--dark: #7b1fa2;
+  
+  --md-accent-fg-color: #e040fb;
+}
+
+/* Make the sidebar and header blend into the black */
+.md-header {
+  background-color: #000000 !important;
+  border-bottom: 1px solid #2d004d;
+}
+
+.md-nav__link--active {
+  color: #e040fb !important;
+  font-weight: bold;
+}
+
+/* Custom Purple Scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #7b1fa2;
+}

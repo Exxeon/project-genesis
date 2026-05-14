@@ -1,0 +1,35 @@
+site_name: "Genesis: The Vision"
+site_author: "Oluwasegun Matthews"
+
+theme:
+  name: material
+  palette:
+    - scheme: genesis-dark
+      primary: deep purple
+      accent: deep purple
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+
+nav:
+  - Vision: index.md
+  - Roadmap:
+    - "Epoch I: Foundation": epochs/epoch-1.md
+    - "Epoch II: Logic (Rust)": epochs/epoch-2.md
+    - "Epoch III: Scale": epochs/epoch-3.md
+  - The Brain Shed (Journal):
+      - Recent Thoughts: brain-shed/current.md
+      - Archive: brain-shed/archive.md
+  - Architecture (ADRs):
+    - "ADR 001: Language Choice": adr/001-rust.md
