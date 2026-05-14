@@ -3,6 +3,18 @@
   --md-default-bg-color: #000000;
   --md-default-bg-color--light: #0a0a0a;
   --md-code-bg-color: #0d0d0d;
+  --md-default-fg-color: #f3f1f7;
+  --md-default-fg-color--light: #d1cadc;
+  --md-default-fg-color--lighter: #a194b3;
+  --md-typeset-color: #f3f1f7;
+  --md-typeset-a-color: #e694ff;
+  --md-typeset-mark-color: rgba(224, 64, 251, 0.25);
+  --md-typeset-kbd-color: #17131d;
+  --md-typeset-kbd-accent-color: #2b2238;
+  --md-typeset-kbd-border-color: #3a2e4e;
+  --md-admonition-bg-color: #0b0a0e;
+  --md-footer-bg-color: #030304;
+  --md-footer-bg-color--dark: #000000;
   
   /* Purple Accents */
   --md-primary-fg-color: #9c27b0;
@@ -10,6 +22,14 @@
   --md-primary-fg-color--dark: #7b1fa2;
   
   --md-accent-fg-color: #e040fb;
+}
+
+[data-md-color-scheme="genesis-dark"] .md-typeset code {
+  color: #f2d8ff;
+}
+
+[data-md-color-scheme="genesis-dark"] .md-typeset pre code {
+  color: #f3f1f7;
 }
 
 /* Make the sidebar and header blend into the black */
