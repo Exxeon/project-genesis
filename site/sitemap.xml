@@ -1,3 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://exxeon.github.io/project-genesis/</loc>
+         <lastmod>2026-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://exxeon.github.io/project-genesis/adr/001-rust/</loc>
+         <lastmod>2026-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://exxeon.github.io/project-genesis/brain-shed/archive/</loc>
+         <lastmod>2026-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://exxeon.github.io/project-genesis/brain-shed/current/</loc>
+         <lastmod>2026-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://exxeon.github.io/project-genesis/epochs/epoch-1/</loc>
+         <lastmod>2026-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://exxeon.github.io/project-genesis/epochs/epoch-2/</loc>
+         <lastmod>2026-05-14</lastmod>
+    </url>
+    <url>
+         <loc>https://exxeon.github.io/project-genesis/epochs/epoch-3/</loc>
+         <lastmod>2026-05-14</lastmod>
+    </url>
 </urlset>

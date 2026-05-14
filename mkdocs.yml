@@ -1,5 +1,6 @@
 site_name: "Genesis: The Vision"
 site_author: "Oluwasegun Matthews"
+site_url: "https://exxeon.github.io/project-genesis/"
 
 theme:
   name: material
